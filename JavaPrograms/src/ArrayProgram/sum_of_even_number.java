@@ -17,11 +17,11 @@ public class sum_of_even_number {
 		for (int i = 0; i < n; i++)
 			System.out.print(a[i] + " ");
 		System.out.println();
-		
+
 		System.out.println("Even Number in Array are");
-		for(int i=0;i<n;i++){
-			if(a[i]%2==0)
-				System.out.print(a[i]+" ");
+		for (int i = 0; i < n; i++) {
+			if (a[i] % 2 == 0)
+				System.out.print(a[i] + " ");
 		}
 
 	}

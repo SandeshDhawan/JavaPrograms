@@ -13,16 +13,16 @@ public class print_even_number {
 		System.out.println("Enter " + n + " Number in Array");
 		for (int i = 0; i < n; i++)
 			a[i] = k.nextInt();
-		
+
 		System.out.println("Number in Array are");
-		for(int i=0;i<n;i++)
-			System.out.print(a[i]+" ");
+		for (int i = 0; i < n; i++)
+			System.out.print(a[i] + " ");
 		System.out.println();
-		
+
 		System.out.println("Even Number in Array are=");
-		for(int i=0;i<n;i++)
-			if(a[i]%2==0)
-				System.out.print(a[i]+" ");
+		for (int i = 0; i < n; i++)
+			if (a[i] % 2 == 0)
+				System.out.print(a[i] + " ");
 
 	}
 
