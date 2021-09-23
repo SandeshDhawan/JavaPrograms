@@ -1,6 +1,6 @@
 package InterviewPrograms;
 
-public class Print1to100WithoutUsingANyLoop {
+public class Print1to100WithoutUsingAnyLoop {
 	public static void main(String[] args) {
 		printNum(1);
 	}
